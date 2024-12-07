@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.box {
+    height: 50%;
+    width: 50%;
+    background-color: aquamarine;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    border: 4px solid goldenrod;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+/* .cont {
+    border: 3px solid rebeccapurple;
+    height: 150px;
+    width: 300px;
+} */
+
+.dlt {
+    align-items: center;
+   display:flex;
+   justify-content: center;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.inputbar{
+    height: 10%;
+    width: 80%;
+    margin: 10px;
+    font-size: 2rem;
+}
+.addbtn{
+    font-size: 2rem;
+    align-items: center;
+    
+}
+/* div{
+    border: 3px solid rebeccapurple;
+    height: 50px;
+    width: 300px;
+} */
